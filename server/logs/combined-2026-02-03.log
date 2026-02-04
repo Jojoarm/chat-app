@@ -1,0 +1,104 @@
+{
+  message: 'Server running on port 5000 in development mode',
+  level: 'info',
+  timestamp: '2026-02-03 19:48:23'
+}
+{
+  errors: {
+    password: CastError: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password"
+        at SchemaString.cast (C:\Users\hp-pc\Desktop\Mern Projects\chat-app\server\node_modules\mongoose\lib\schema\string.js:609:11)
+        at SchemaString.SchemaType.applySetters (C:\Users\hp-pc\Desktop\Mern Projects\chat-app\server\node_modules\mongoose\lib\schemaType.js:1280:12)
+        at model.$set (C:\Users\hp-pc\Desktop\Mern Projects\chat-app\server\node_modules\mongoose\lib\document.js:1464:22)
+        at model.$set (C:\Users\hp-pc\Desktop\Mern Projects\chat-app\server\node_modules\mongoose\lib\document.js:1158:16)
+        at model.Document (C:\Users\hp-pc\Desktop\Mern Projects\chat-app\server\node_modules\mongoose\lib\document.js:178:12)
+        at model.Model (C:\Users\hp-pc\Desktop\Mern Projects\chat-app\server\node_modules\mongoose\lib\model.js:129:12)
+        at new model (C:\Users\hp-pc\Desktop\Mern Projects\chat-app\server\node_modules\mongoose\lib\model.js:4668:15)
+        at signUpUserService (C:\Users\hp-pc\Desktop\Mern Projects\chat-app\server\src\services\user.service.ts:14:19)
+        at processTicksAndRejections (node:internal/process/task_queues:103:5)
+        at async C:\Users\hp-pc\Desktop\Mern Projects\chat-app\server\src\controllers\user.controller.ts:16:18 {
+      stringValue: '"Promise { <pending> }"',
+      messageFormat: undefined,
+      kind: 'string',
+      value: Promise { <pending> },
+      path: 'password',
+      reason: null,
+      valueType: 'Promise'
+    }
+  },
+  _message: 'User validation failed',
+  level: 'error',
+  message: 'Error occurred: /api/users/signup User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password"',
+  stack: 'ValidationError: User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password"\n' +
+    '    at model.Document.invalidate (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\mongoose\\lib\\document.js:3385:32)\n' +
+    '    at model.$set (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\mongoose\\lib\\document.js:1504:12)\n' +
+    '    at model.$set (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\mongoose\\lib\\document.js:1158:16)\n' +
+    '    at model.Document (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\mongoose\\lib\\document.js:178:12)\n' +
+    '    at model.Model (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\mongoose\\lib\\model.js:129:12)\n' +
+    '    at new model (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\mongoose\\lib\\model.js:4668:15)\n' +
+    '    at signUpUserService (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\src\\services\\user.service.ts:14:19)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+    '    at async C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\src\\controllers\\user.controller.ts:16:18',
+  timestamp: '2026-02-03 19:49:08'
+}
+{
+  message: 'Server running on port 5000 in development mode',
+  level: 'info',
+  timestamp: '2026-02-03 19:56:31'
+}
+{
+  errors: {
+    password: CastError: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password"
+        at SchemaString.cast (C:\Users\hp-pc\Desktop\Mern Projects\chat-app\server\node_modules\mongoose\lib\schema\string.js:609:11)
+        at SchemaString.SchemaType.applySetters (C:\Users\hp-pc\Desktop\Mern Projects\chat-app\server\node_modules\mongoose\lib\schemaType.js:1280:12)
+        at model.$set (C:\Users\hp-pc\Desktop\Mern Projects\chat-app\server\node_modules\mongoose\lib\document.js:1464:22)
+        at model.$set (C:\Users\hp-pc\Desktop\Mern Projects\chat-app\server\node_modules\mongoose\lib\document.js:1158:16)
+        at model.Document (C:\Users\hp-pc\Desktop\Mern Projects\chat-app\server\node_modules\mongoose\lib\document.js:178:12)
+        at model.Model (C:\Users\hp-pc\Desktop\Mern Projects\chat-app\server\node_modules\mongoose\lib\model.js:129:12)
+        at new model (C:\Users\hp-pc\Desktop\Mern Projects\chat-app\server\node_modules\mongoose\lib\model.js:4668:15)
+        at signUpUserService (C:\Users\hp-pc\Desktop\Mern Projects\chat-app\server\src\services\user.service.ts:14:19)
+        at processTicksAndRejections (node:internal/process/task_queues:103:5)
+        at async C:\Users\hp-pc\Desktop\Mern Projects\chat-app\server\src\controllers\user.controller.ts:16:18 {
+      stringValue: '"Promise { <pending> }"',
+      messageFormat: undefined,
+      kind: 'string',
+      value: Promise { <pending> },
+      path: 'password',
+      reason: null,
+      valueType: 'Promise'
+    }
+  },
+  _message: 'User validation failed',
+  level: 'error',
+  message: 'Error occurred: /api/users/signup User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password"',
+  stack: 'ValidationError: User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password"\n' +
+    '    at model.Document.invalidate (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\mongoose\\lib\\document.js:3385:32)\n' +
+    '    at model.$set (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\mongoose\\lib\\document.js:1504:12)\n' +
+    '    at model.$set (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\mongoose\\lib\\document.js:1158:16)\n' +
+    '    at model.Document (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\mongoose\\lib\\document.js:178:12)\n' +
+    '    at model.Model (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\mongoose\\lib\\model.js:129:12)\n' +
+    '    at new model (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\mongoose\\lib\\model.js:4668:15)\n' +
+    '    at signUpUserService (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\src\\services\\user.service.ts:14:19)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+    '    at async C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\src\\controllers\\user.controller.ts:16:18',
+  timestamp: '2026-02-03 19:57:29'
+}
+{
+  message: 'Server running on port 5000 in development mode',
+  level: 'info',
+  timestamp: '2026-02-03 19:59:15'
+}
+{
+  message: 'Server running on port 5000 in development mode',
+  level: 'info',
+  timestamp: '2026-02-03 20:00:00'
+}
+{
+  message: 'Server running on port 5000 in development mode',
+  level: 'info',
+  timestamp: '2026-02-03 20:00:50'
+}
+{
+  message: 'Server running on port 5000 in development mode',
+  level: 'info',
+  timestamp: '2026-02-03 20:04:08'
+}
