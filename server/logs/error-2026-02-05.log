@@ -1,0 +1,77 @@
+{
+  statusCode: 401,
+  errorCode: 'ERR_UNAUTHORIZED',
+  level: 'error',
+  message: 'Error occurred: /api/users/auth-status Unauthorized Access!',
+  stack: 'Error: Unauthorized Access!\n' +
+    '    at JwtStrategy.<anonymous> (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\src\\config\\auth.config.ts:13:29)\n' +
+    '    at JwtStrategy._jwtFromRequest (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport-jwt\\lib\\extract_jwt.js:84:39)\n' +
+    '    at JwtStrategy.authenticate (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport-jwt\\lib\\strategy.js:93:22)\n' +
+    '    at attempt (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport\\lib\\middleware\\authenticate.js:378:16)\n' +
+    '    at authenticate (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport\\lib\\middleware\\authenticate.js:379:7)\n' +
+    '    at Layer.handleRequest (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+    '    at trimPrefix (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:342:13)\n' +
+    '    at C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:297:9\n' +
+    '    at processParams (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:582:12)\n' +
+    '    at next (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:291:5)',
+  timestamp: '2026-02-05 13:45:56'
+}
+{
+  statusCode: 401,
+  errorCode: 'ERR_UNAUTHORIZED',
+  level: 'error',
+  message: 'Error occurred: /api/users/auth-status Unauthorized Access!',
+  stack: 'Error: Unauthorized Access!\n' +
+    '    at JwtStrategy.<anonymous> (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\src\\config\\auth.config.ts:13:29)\n' +
+    '    at JwtStrategy._jwtFromRequest (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport-jwt\\lib\\extract_jwt.js:84:39)\n' +
+    '    at JwtStrategy.authenticate (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport-jwt\\lib\\strategy.js:93:22)\n' +
+    '    at attempt (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport\\lib\\middleware\\authenticate.js:378:16)\n' +
+    '    at authenticate (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport\\lib\\middleware\\authenticate.js:379:7)\n' +
+    '    at Layer.handleRequest (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+    '    at trimPrefix (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:342:13)\n' +
+    '    at C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:297:9\n' +
+    '    at processParams (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:582:12)\n' +
+    '    at next (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:291:5)',
+  timestamp: '2026-02-05 13:46:15'
+}
+{
+  statusCode: 401,
+  errorCode: 'ERR_UNAUTHORIZED',
+  level: 'error',
+  message: 'Error occurred: /api/users/auth-status Unauthorized Access!',
+  stack: 'Error: Unauthorized Access!\n' +
+    '    at JwtStrategy.<anonymous> (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\src\\config\\auth.config.ts:13:29)\n' +
+    '    at JwtStrategy._jwtFromRequest (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport-jwt\\lib\\extract_jwt.js:84:39)\n' +
+    '    at JwtStrategy.authenticate (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport-jwt\\lib\\strategy.js:93:22)\n' +
+    '    at attempt (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport\\lib\\middleware\\authenticate.js:378:16)\n' +
+    '    at authenticate (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport\\lib\\middleware\\authenticate.js:379:7)\n' +
+    '    at Layer.handleRequest (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+    '    at trimPrefix (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:342:13)\n' +
+    '    at C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:297:9\n' +
+    '    at processParams (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:582:12)\n' +
+    '    at next (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:291:5)',
+  timestamp: '2026-02-05 13:46:40'
+}
+{
+  statusCode: 401,
+  errorCode: 'ERR_UNAUTHORIZED',
+  level: 'error',
+  message: 'Error occurred: /api/users/auth-status Unauthorized Access!',
+  stack: 'Error: Unauthorized Access!\n' +
+    '    at JwtStrategy.<anonymous> (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\src\\config\\auth.config.ts:13:29)\n' +
+    '    at JwtStrategy._jwtFromRequest (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport-jwt\\lib\\extract_jwt.js:84:39)\n' +
+    '    at JwtStrategy.authenticate (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport-jwt\\lib\\strategy.js:93:22)\n' +
+    '    at attempt (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport\\lib\\middleware\\authenticate.js:378:16)\n' +
+    '    at authenticate (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport\\lib\\middleware\\authenticate.js:379:7)\n' +
+    '    at Layer.handleRequest (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+    '    at trimPrefix (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:342:13)\n' +
+    '    at C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:297:9\n' +
+    '    at processParams (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:582:12)\n' +
+    '    at next (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:291:5)',
+  timestamp: '2026-02-05 13:54:47'
+}
+{
+  message: 'read ECONNRESET',
+  level: 'error',
+  timestamp: '2026-02-05 16:49:00'
+}

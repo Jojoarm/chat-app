@@ -17,6 +17,7 @@ export const signUpUserController = catchAsync(
     const userId = user._id.toString();
 
     return setJwtAuthCookie({ res, userId }).status(HTTPSTATUS.CREATED).json({
+      success: true,
       message: 'User registered successfully',
       user,
     });
@@ -36,6 +37,7 @@ export const logInUserController = catchAsync(
     })
       .status(HTTPSTATUS.OK)
       .json({
+        success: true,
         message: 'User logged in successfully!',
         user,
       });
@@ -45,6 +47,7 @@ export const logInUserController = catchAsync(
 export const logoutController = catchAsync(
   async (req: Request, res: Response) => {
     return clearJwtAuthCookie(res).status(HTTPSTATUS.OK).json({
+      success: true,
       message: 'User logged out successfully!',
     });
   },
@@ -55,7 +58,7 @@ export const authStatusController = catchAsync(
     const user = req.user;
     return res
       .status(HTTPSTATUS.OK)
-      .json({ message: 'User Authenticated!', user });
+      .json({ success: true, message: 'User Authenticated!', user });
   },
 );
 
@@ -66,6 +69,7 @@ export const getUsersController = catchAsync(
     const users = await getUsersService(userId);
 
     return res.status(HTTPSTATUS.OK).json({
+      success: true,
       message: 'Users fetched successfully!',
       users,
     });

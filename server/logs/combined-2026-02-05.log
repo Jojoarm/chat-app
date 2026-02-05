@@ -1,0 +1,326 @@
+{
+  message: 'Server running on port 5000 in development mode',
+  level: 'info',
+  timestamp: '2026-02-05 07:13:07'
+}
+{
+  message: 'Rate limit hit for IP: ::1 on GET /api/users/auth-status',
+  level: 'warn',
+  timestamp: '2026-02-05 07:16:30'
+}
+{
+  message: 'Server running on port 5000 in development mode',
+  level: 'info',
+  timestamp: '2026-02-05 08:18:18'
+}
+{
+  message: 'Server running on port 5000 in development mode',
+  level: 'info',
+  timestamp: '2026-02-05 08:18:38'
+}
+{
+  message: 'Server running on port 5000 in development mode',
+  level: 'info',
+  timestamp: '2026-02-05 12:16:28'
+}
+{
+  message: 'Server running on port 5000 in development mode',
+  level: 'info',
+  timestamp: '2026-02-05 13:02:49'
+}
+{
+  message: 'Server running on port 5000 in development mode',
+  level: 'info',
+  timestamp: '2026-02-05 13:16:05'
+}
+{
+  message: 'Server running on port 5000 in development mode',
+  level: 'info',
+  timestamp: '2026-02-05 13:28:24'
+}
+{
+  message: 'Server running on port 5000 in development mode',
+  level: 'info',
+  timestamp: '2026-02-05 13:39:24'
+}
+{
+  message: 'Server running on port 5000 in development mode',
+  level: 'info',
+  timestamp: '2026-02-05 13:42:15'
+}
+{
+  message: 'Server running on port 5000 in development mode',
+  level: 'info',
+  timestamp: '2026-02-05 13:43:59'
+}
+{
+  statusCode: 401,
+  errorCode: 'ERR_UNAUTHORIZED',
+  level: 'error',
+  message: 'Error occurred: /api/users/auth-status Unauthorized Access!',
+  stack: 'Error: Unauthorized Access!\n' +
+    '    at JwtStrategy.<anonymous> (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\src\\config\\auth.config.ts:13:29)\n' +
+    '    at JwtStrategy._jwtFromRequest (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport-jwt\\lib\\extract_jwt.js:84:39)\n' +
+    '    at JwtStrategy.authenticate (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport-jwt\\lib\\strategy.js:93:22)\n' +
+    '    at attempt (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport\\lib\\middleware\\authenticate.js:378:16)\n' +
+    '    at authenticate (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport\\lib\\middleware\\authenticate.js:379:7)\n' +
+    '    at Layer.handleRequest (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+    '    at trimPrefix (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:342:13)\n' +
+    '    at C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:297:9\n' +
+    '    at processParams (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:582:12)\n' +
+    '    at next (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:291:5)',
+  timestamp: '2026-02-05 13:45:56'
+}
+{
+  statusCode: 401,
+  errorCode: 'ERR_UNAUTHORIZED',
+  level: 'error',
+  message: 'Error occurred: /api/users/auth-status Unauthorized Access!',
+  stack: 'Error: Unauthorized Access!\n' +
+    '    at JwtStrategy.<anonymous> (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\src\\config\\auth.config.ts:13:29)\n' +
+    '    at JwtStrategy._jwtFromRequest (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport-jwt\\lib\\extract_jwt.js:84:39)\n' +
+    '    at JwtStrategy.authenticate (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport-jwt\\lib\\strategy.js:93:22)\n' +
+    '    at attempt (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport\\lib\\middleware\\authenticate.js:378:16)\n' +
+    '    at authenticate (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport\\lib\\middleware\\authenticate.js:379:7)\n' +
+    '    at Layer.handleRequest (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+    '    at trimPrefix (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:342:13)\n' +
+    '    at C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:297:9\n' +
+    '    at processParams (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:582:12)\n' +
+    '    at next (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:291:5)',
+  timestamp: '2026-02-05 13:46:15'
+}
+{
+  statusCode: 401,
+  errorCode: 'ERR_UNAUTHORIZED',
+  level: 'error',
+  message: 'Error occurred: /api/users/auth-status Unauthorized Access!',
+  stack: 'Error: Unauthorized Access!\n' +
+    '    at JwtStrategy.<anonymous> (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\src\\config\\auth.config.ts:13:29)\n' +
+    '    at JwtStrategy._jwtFromRequest (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport-jwt\\lib\\extract_jwt.js:84:39)\n' +
+    '    at JwtStrategy.authenticate (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport-jwt\\lib\\strategy.js:93:22)\n' +
+    '    at attempt (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport\\lib\\middleware\\authenticate.js:378:16)\n' +
+    '    at authenticate (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport\\lib\\middleware\\authenticate.js:379:7)\n' +
+    '    at Layer.handleRequest (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+    '    at trimPrefix (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:342:13)\n' +
+    '    at C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:297:9\n' +
+    '    at processParams (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:582:12)\n' +
+    '    at next (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:291:5)',
+  timestamp: '2026-02-05 13:46:40'
+}
+{
+  message: ' Redis connected',
+  level: 'info',
+  timestamp: '2026-02-05 13:53:50'
+}
+{
+  message: 'Server running on port 5000 in development mode',
+  level: 'info',
+  timestamp: '2026-02-05 13:53:53'
+}
+{
+  statusCode: 401,
+  errorCode: 'ERR_UNAUTHORIZED',
+  level: 'error',
+  message: 'Error occurred: /api/users/auth-status Unauthorized Access!',
+  stack: 'Error: Unauthorized Access!\n' +
+    '    at JwtStrategy.<anonymous> (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\src\\config\\auth.config.ts:13:29)\n' +
+    '    at JwtStrategy._jwtFromRequest (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport-jwt\\lib\\extract_jwt.js:84:39)\n' +
+    '    at JwtStrategy.authenticate (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport-jwt\\lib\\strategy.js:93:22)\n' +
+    '    at attempt (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport\\lib\\middleware\\authenticate.js:378:16)\n' +
+    '    at authenticate (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\passport\\lib\\middleware\\authenticate.js:379:7)\n' +
+    '    at Layer.handleRequest (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+    '    at trimPrefix (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:342:13)\n' +
+    '    at C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:297:9\n' +
+    '    at processParams (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:582:12)\n' +
+    '    at next (C:\\Users\\hp-pc\\Desktop\\Mern Projects\\chat-app\\server\\node_modules\\router\\index.js:291:5)',
+  timestamp: '2026-02-05 13:54:47'
+}
+{
+  message: 'read ECONNRESET',
+  level: 'error',
+  timestamp: '2026-02-05 16:49:00'
+}
+{
+  message: ' Redis connection closed',
+  level: 'warn',
+  timestamp: '2026-02-05 16:49:00'
+}
+{
+  message: ' Redis reconnecting...',
+  level: 'info',
+  timestamp: '2026-02-05 16:49:00'
+}
+{
+  message: ' Redis connected',
+  level: 'info',
+  timestamp: '2026-02-05 16:53:11'
+}
+{
+  message: 'Server running on port 5000 in development mode',
+  level: 'info',
+  timestamp: '2026-02-05 16:53:13'
+}
+{
+  message: ' Redis connected',
+  level: 'info',
+  timestamp: '2026-02-05 16:53:49'
+}
+{
+  message: 'Server running on port 5000 in development mode',
+  level: 'info',
+  timestamp: '2026-02-05 16:53:51'
+}
+{
+  message: ' Redis connected',
+  level: 'info',
+  timestamp: '2026-02-05 16:56:26'
+}
+{
+  message: 'Server running on port 5000 in development mode',
+  level: 'info',
+  timestamp: '2026-02-05 16:56:27'
+}
+{
+  message: ' Redis connected',
+  level: 'info',
+  timestamp: '2026-02-05 17:01:09'
+}
+{
+  message: 'Server running on port 5000 in development mode',
+  level: 'info',
+  timestamp: '2026-02-05 17:01:11'
+}
+{
+  userId: '698445e0826d178c0e7fa52c',
+  newSocketId: '_D5uSDKpCLmNlAdDAAAB',
+  level: 'info',
+  message: 'socket connected',
+  timestamp: '2026-02-05 17:03:20'
+}
+{
+  message: 'Heartbeat: keeping user 698445e0826d178c0e7fa52c online',
+  level: 'info',
+  timestamp: '2026-02-05 17:05:21'
+}
+{
+  message: 'Heartbeat: keeping user 698445e0826d178c0e7fa52c online',
+  level: 'info',
+  timestamp: '2026-02-05 17:07:21'
+}
+{
+  message: 'Heartbeat: keeping user 698445e0826d178c0e7fa52c online',
+  level: 'info',
+  timestamp: '2026-02-05 17:09:21'
+}
+{
+  userId: '698493622091ef36b1b835a5',
+  newSocketId: 'doqDvg06YrtEVJFKAAAD',
+  level: 'info',
+  message: 'socket connected',
+  timestamp: '2026-02-05 17:11:14'
+}
+{
+  message: 'Heartbeat: keeping user 698445e0826d178c0e7fa52c online',
+  level: 'info',
+  timestamp: '2026-02-05 17:11:21'
+}
+{
+  message: 'Heartbeat: keeping user 698493622091ef36b1b835a5 online',
+  level: 'info',
+  timestamp: '2026-02-05 17:13:15'
+}
+{
+  message: 'Heartbeat: keeping user 698445e0826d178c0e7fa52c online',
+  level: 'info',
+  timestamp: '2026-02-05 17:13:21'
+}
+{
+  message: 'Heartbeat: keeping user 698493622091ef36b1b835a5 online',
+  level: 'info',
+  timestamp: '2026-02-05 17:15:15'
+}
+{
+  message: 'Heartbeat: keeping user 698445e0826d178c0e7fa52c online',
+  level: 'info',
+  timestamp: '2026-02-05 17:15:21'
+}
+{
+  message: 'Heartbeat: keeping user 698493622091ef36b1b835a5 online',
+  level: 'info',
+  timestamp: '2026-02-05 17:17:15'
+}
+{
+  message: 'Heartbeat: keeping user 698445e0826d178c0e7fa52c online',
+  level: 'info',
+  timestamp: '2026-02-05 17:17:21'
+}
+{
+  message: 'Heartbeat: keeping user 698493622091ef36b1b835a5 online',
+  level: 'info',
+  timestamp: '2026-02-05 17:19:15'
+}
+{
+  message: 'Heartbeat: keeping user 698445e0826d178c0e7fa52c online',
+  level: 'info',
+  timestamp: '2026-02-05 17:19:21'
+}
+{
+  message: 'Heartbeat: keeping user 698493622091ef36b1b835a5 online',
+  level: 'info',
+  timestamp: '2026-02-05 17:21:15'
+}
+{
+  message: 'Heartbeat: keeping user 698445e0826d178c0e7fa52c online',
+  level: 'info',
+  timestamp: '2026-02-05 17:21:21'
+}
+{
+  message: 'Heartbeat: keeping user 698493622091ef36b1b835a5 online',
+  level: 'info',
+  timestamp: '2026-02-05 17:23:15'
+}
+{
+  message: 'Heartbeat: keeping user 698445e0826d178c0e7fa52c online',
+  level: 'info',
+  timestamp: '2026-02-05 17:23:21'
+}
+{
+  message: 'Heartbeat: keeping user 698493622091ef36b1b835a5 online',
+  level: 'info',
+  timestamp: '2026-02-05 17:25:15'
+}
+{
+  message: 'Heartbeat: keeping user 698445e0826d178c0e7fa52c online',
+  level: 'info',
+  timestamp: '2026-02-05 17:25:21'
+}
+{
+  message: 'Heartbeat: keeping user 698493622091ef36b1b835a5 online',
+  level: 'info',
+  timestamp: '2026-02-05 17:27:15'
+}
+{
+  message: 'Heartbeat: keeping user 698445e0826d178c0e7fa52c online',
+  level: 'info',
+  timestamp: '2026-02-05 17:27:21'
+}
+{
+  message: 'Heartbeat: keeping user 698493622091ef36b1b835a5 online',
+  level: 'info',
+  timestamp: '2026-02-05 17:29:15'
+}
+{
+  message: 'Heartbeat: keeping user 698445e0826d178c0e7fa52c online',
+  level: 'info',
+  timestamp: '2026-02-05 17:29:21'
+}
+{
+  message: 'Heartbeat: keeping user 698493622091ef36b1b835a5 online',
+  level: 'info',
+  timestamp: '2026-02-05 17:31:15'
+}
+{
+  message: 'Heartbeat: keeping user 698445e0826d178c0e7fa52c online',
+  level: 'info',
+  timestamp: '2026-02-05 17:31:21'
+}

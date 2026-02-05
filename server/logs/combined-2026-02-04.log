@@ -3,3 +3,8 @@
   level: 'info',
   timestamp: '2026-02-04 10:43:50'
 }
+{
+  message: 'Server running on port 5000 in development mode',
+  level: 'info',
+  timestamp: '2026-02-04 10:45:37'
+}

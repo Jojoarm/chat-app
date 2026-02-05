@@ -1,3 +1,4 @@
+import cloudinary from '../config/cloudinary.config';
 import UserModel from '../models/user.model';
 import { NotFoundException, UnauthorizedException } from '../utils/app-error';
 import { hashValue } from '../utils/bcrypt';
@@ -7,18 +8,26 @@ import {
 } from '../validators/user.validator';
 
 export const signUpUserService = async (body: SignUpSchemaType) => {
-  const { email } = body;
+  const { name, email, password, avatar } = body;
 
   const existingUser = await UserModel.findOne({ email });
   if (existingUser) throw new UnauthorizedException('User already exist');
 
-  const hashedPassword = await hashValue(body.password);
+  const hashedPassword = await hashValue(password);
+
+  let avatarUrl;
+
+  if (avatar) {
+    // upload to cloudinary
+    const uploadRes = await cloudinary.uploader.upload(avatar);
+    avatarUrl = uploadRes.secure_url;
+  }
 
   const newUser = new UserModel({
-    name: body.name,
-    email: body.email,
+    name,
+    email,
     password: hashedPassword,
-    avatar: body.avatar,
+    avatar: avatarUrl,
   });
 
   await newUser.save();

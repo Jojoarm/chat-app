@@ -1,4 +1,4 @@
-import express, { Request, Response } from 'express';
+import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
 import cookieParser from 'cookie-parser';
@@ -9,15 +9,15 @@ import { Env } from './config/env.config';
 import { globalLimiter } from './middlewares/rateLimiter';
 import { errorHandler } from './middlewares/errorHandler';
 import connectDB from './config/database.config';
-import connectCloudinary from './config/cloudinary.config';
 import logger from './utils/logger';
 import routes from './routes';
+import { initializeSocket } from './lib/socket';
 
 const app = express();
 const server = http.createServer(app);
 
 //socket
-// initializeSocket(server);
+initializeSocket(server);
 
 app.set('trust proxy', 1);
 app.use(helmet({ contentSecurityPolicy: false }));
@@ -43,7 +43,6 @@ app.use(errorHandler);
 const startServer = async () => {
   try {
     await connectDB();
-    connectCloudinary();
 
     server.listen(Env.PORT, async () => {
       logger.info(`Server running on port ${Env.PORT} in ${Env.NODE_ENV} mode`);
